@@ -7,6 +7,7 @@ import dotenv from 'dotenv'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const backendRoot = resolve(__dirname, '..')
+const backendStandaloneServer = resolve(backendRoot, 'dist', 'standalone', 'server.js')
 const frontendRootCandidates = [
   resolve(backendRoot, 'frontend'),
   resolve(backendRoot, '..', 'frontend'),
@@ -18,8 +19,15 @@ const frontendRoot = frontendRootCandidates.find((candidate) =>
 )
 
 if (!frontendRoot) {
+  if (existsSync(backendStandaloneServer)) {
+    console.log(
+      'Frontend source not found. Using committed backend/dist/standalone bundle instead.',
+    )
+    process.exit(0)
+  }
+
   throw new Error(
-    `Could not locate frontend package.json. Tried: ${frontendRootCandidates.join(', ')}`,
+    `Could not locate frontend package.json. Tried: ${frontendRootCandidates.join(', ')}. Also could not find ${backendStandaloneServer}.`,
   )
 }
 
