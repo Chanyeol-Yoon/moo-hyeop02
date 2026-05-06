@@ -6,23 +6,11 @@ require('dotenv').config();
 
 const buildServerPath = path.join(__dirname, 'dist', 'standalone', 'server.js');
 const resolvedPort = process.env.PORT || '4000';
-const resolvedHostname =
-    process.env.HOST ||
-    process.env.HOSTNAME ||
-    (() => {
-        if (!process.env.RENDER_EXTERNAL_URL) {
-            return '0.0.0.0';
-        }
-
-        try {
-            return new URL(process.env.RENDER_EXTERNAL_URL).hostname;
-        } catch {
-            return '0.0.0.0';
-        }
-    })();
+const resolvedHostname = process.env.HOST || '0.0.0.0';
 
 process.env.PORT = resolvedPort;
 process.env.HOSTNAME = resolvedHostname;
+process.env.HOST = resolvedHostname;
 
 if (fs.existsSync(buildServerPath)) {
     require(buildServerPath);
