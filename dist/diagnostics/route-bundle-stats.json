@@ -1,0 +1,116 @@
+[
+  {
+    "route": "/search-archive",
+    "firstLoadUncompressedJsBytes": 627765,
+    "firstLoadChunkPaths": [
+      "dist\\static\\chunks\\0ir6e6aa5.cdp.js",
+      "dist\\static\\chunks\\0d3shmwh5_nmn.js",
+      "dist\\static\\chunks\\0rad4wktq4y5d.js",
+      "dist\\static\\chunks\\0hr69gval2pws.js",
+      "dist\\static\\chunks\\0f7n4.a4j7k4y.js",
+      "dist\\static\\chunks\\094mkz9ix3e04.js",
+      "dist\\static\\chunks\\12pt~2f.c1sha.js",
+      "dist\\static\\chunks\\133u3r20u~w2w.js",
+      "dist\\static\\chunks\\0endsxqral6_y.js",
+      "dist\\static\\chunks\\0irpjk.f06gcm.js",
+      "dist\\static\\chunks\\turbopack-0y8j8t-l33d~g.js"
+    ]
+  },
+  {
+    "route": "/search-archive/[category]",
+    "firstLoadUncompressedJsBytes": 627765,
+    "firstLoadChunkPaths": [
+      "dist\\static\\chunks\\0ir6e6aa5.cdp.js",
+      "dist\\static\\chunks\\0d3shmwh5_nmn.js",
+      "dist\\static\\chunks\\0rad4wktq4y5d.js",
+      "dist\\static\\chunks\\0hr69gval2pws.js",
+      "dist\\static\\chunks\\0f7n4.a4j7k4y.js",
+      "dist\\static\\chunks\\094mkz9ix3e04.js",
+      "dist\\static\\chunks\\12pt~2f.c1sha.js",
+      "dist\\static\\chunks\\133u3r20u~w2w.js",
+      "dist\\static\\chunks\\0endsxqral6_y.js",
+      "dist\\static\\chunks\\0irpjk.f06gcm.js",
+      "dist\\static\\chunks\\turbopack-0y8j8t-l33d~g.js"
+    ]
+  },
+  {
+    "route": "/notices",
+    "firstLoadUncompressedJsBytes": 612201,
+    "firstLoadChunkPaths": [
+      "dist\\static\\chunks\\0ir6e6aa5.cdp.js",
+      "dist\\static\\chunks\\0d3shmwh5_nmn.js",
+      "dist\\static\\chunks\\0rad4wktq4y5d.js",
+      "dist\\static\\chunks\\0hr69gval2pws.js",
+      "dist\\static\\chunks\\10tdmk~oydqu7.js",
+      "dist\\static\\chunks\\094mkz9ix3e04.js",
+      "dist\\static\\chunks\\12pt~2f.c1sha.js",
+      "dist\\static\\chunks\\133u3r20u~w2w.js",
+      "dist\\static\\chunks\\0endsxqral6_y.js",
+      "dist\\static\\chunks\\0irpjk.f06gcm.js",
+      "dist\\static\\chunks\\turbopack-0y8j8t-l33d~g.js"
+    ]
+  },
+  {
+    "route": "/introduction",
+    "firstLoadUncompressedJsBytes": 611941,
+    "firstLoadChunkPaths": [
+      "dist\\static\\chunks\\0ir6e6aa5.cdp.js",
+      "dist\\static\\chunks\\0d3shmwh5_nmn.js",
+      "dist\\static\\chunks\\0rad4wktq4y5d.js",
+      "dist\\static\\chunks\\0hr69gval2pws.js",
+      "dist\\static\\chunks\\015.-~3nb_4n5.js",
+      "dist\\static\\chunks\\094mkz9ix3e04.js",
+      "dist\\static\\chunks\\12pt~2f.c1sha.js",
+      "dist\\static\\chunks\\133u3r20u~w2w.js",
+      "dist\\static\\chunks\\0endsxqral6_y.js",
+      "dist\\static\\chunks\\0irpjk.f06gcm.js",
+      "dist\\static\\chunks\\turbopack-0y8j8t-l33d~g.js"
+    ]
+  },
+  {
+    "route": "/search-engine",
+    "firstLoadUncompressedJsBytes": 598263,
+    "firstLoadChunkPaths": [
+      "dist\\static\\chunks\\0ir6e6aa5.cdp.js",
+      "dist\\static\\chunks\\0d3shmwh5_nmn.js",
+      "dist\\static\\chunks\\0rad4wktq4y5d.js",
+      "dist\\static\\chunks\\0hr69gval2pws.js",
+      "dist\\static\\chunks\\0idkog13bg.o0.js",
+      "dist\\static\\chunks\\12pt~2f.c1sha.js",
+      "dist\\static\\chunks\\133u3r20u~w2w.js",
+      "dist\\static\\chunks\\0endsxqral6_y.js",
+      "dist\\static\\chunks\\0irpjk.f06gcm.js",
+      "dist\\static\\chunks\\turbopack-0y8j8t-l33d~g.js"
+    ]
+  },
+  {
+    "route": "/",
+    "firstLoadUncompressedJsBytes": 557620,
+    "firstLoadChunkPaths": [
+      "dist\\static\\chunks\\0ir6e6aa5.cdp.js",
+      "dist\\static\\chunks\\0d3shmwh5_nmn.js",
+      "dist\\static\\chunks\\0rad4wktq4y5d.js",
+      "dist\\static\\chunks\\0hr69gval2pws.js",
+      "dist\\static\\chunks\\12pt~2f.c1sha.js",
+      "dist\\static\\chunks\\133u3r20u~w2w.js",
+      "dist\\static\\chunks\\0endsxqral6_y.js",
+      "dist\\static\\chunks\\0irpjk.f06gcm.js",
+      "dist\\static\\chunks\\turbopack-0y8j8t-l33d~g.js"
+    ]
+  },
+  {
+    "route": "/_not-found",
+    "firstLoadUncompressedJsBytes": 557620,
+    "firstLoadChunkPaths": [
+      "dist\\static\\chunks\\0ir6e6aa5.cdp.js",
+      "dist\\static\\chunks\\0d3shmwh5_nmn.js",
+      "dist\\static\\chunks\\0rad4wktq4y5d.js",
+      "dist\\static\\chunks\\0hr69gval2pws.js",
+      "dist\\static\\chunks\\12pt~2f.c1sha.js",
+      "dist\\static\\chunks\\133u3r20u~w2w.js",
+      "dist\\static\\chunks\\0endsxqral6_y.js",
+      "dist\\static\\chunks\\0irpjk.f06gcm.js",
+      "dist\\static\\chunks\\turbopack-0y8j8t-l33d~g.js"
+    ]
+  }
+]
