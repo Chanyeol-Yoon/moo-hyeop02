@@ -51,13 +51,19 @@ execSync('npm run build', {
 })
 
 await rm(backendDist, { recursive: true, force: true })
+await cp(resolve(frontendDist), backendDist, { recursive: true })
 await mkdir(resolve(backendDist, 'standalone', '.next'), { recursive: true })
+await mkdir(resolve(backendDist, 'standalone', 'dist', 'static'), { recursive: true })
 
 await cp(resolve(frontendDist, 'standalone'), resolve(backendDist, 'standalone'), {
   recursive: true,
 })
 
 await cp(resolve(frontendDist, 'static'), resolve(backendDist, 'standalone', '.next', 'static'), {
+  recursive: true,
+})
+
+await cp(resolve(frontendDist, 'static'), resolve(backendDist, 'standalone', 'dist', 'static'), {
   recursive: true,
 })
 
